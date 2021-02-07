@@ -1,0 +1,16 @@
+{
+    "name": "Video Speed Controller",
+    "version": "1.0",
+    "icons":{
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js": ["jquery.js", "content_script.js"]
+        }
+    ],
+    "manifest_version": 3
+}
